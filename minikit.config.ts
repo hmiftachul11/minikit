@@ -20,8 +20,8 @@ export const minikitConfig = {
   miniapp: {
     version: "1",
     name: "my-minikit-app",
-    subtitle: "",
-    description: "",
+    subtitle: "Connect and share instantly",
+    description: "Experience the future of social networking. Connect with friends, share moments, and discover communities that matter to you.",
     screenshotUrls: [],
     iconUrl: `${ROOT_URL}/icon.png`,
     splashImageUrl: `${ROOT_URL}/splash.png`,
@@ -31,9 +31,9 @@ export const minikitConfig = {
     primaryCategory: "utility",
     tags: ["example"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
-    tagline: "",
-    ogTitle: "",
-    ogDescription: "",
+    tagline: "connect and share instantly",
+    ogTitle: "my-minikit-app",
+    ogDescription: "Experience the future of social networking. Connect with friends, share moments, and discover communities that matter to you.",
     ogImageUrl: `${ROOT_URL}/hero.png`,
   },
 } as const;
